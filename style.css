@@ -1,0 +1,109 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Uchen&display=swap");
+
+body{
+    font-family: 'Baloo Da 2', cursive;
+      color: rgb(227, 237, 240);
+      margin: 0px;
+      padding: 0px;
+      background: url(img/ppl.jpg);
+
+  }
+  .left{
+      display: inline-block;
+     /* border: 2px solid rgb(9, 220, 235);*/
+      color: tan;
+      position: absolute;
+      left: 60px;
+      top: 10px;
+      margin: 12px;
+  }
+  .left img{
+      width: 136px;
+
+  }
+  .left div{
+      line-height: 19px;
+      font-family: 'Baloo Da 2', cursive;
+      font-size: 26px;
+ text-align: center;
+  }
+  .mid{
+      display: block;
+      width: 50%;
+      margin:  23px auto;
+      /*border: 2px solid greenyellow;*/
+
+  }
+  .right{display: inline-block;
+    /*border: 2px solid rgb(22, 20, 20);*/
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      margin: 12px;
+     
+      
+  }
+  .navbar{
+      display: inline-block;
+
+  }
+  .navbar li{
+      display: inline-block;
+      font-size: 25px;
+  }
+  .navbar li a{
+      color: rgb(241, 235, 235);
+       text-decoration: none;
+       padding: 34px 23px;
+  }
+  .navbar li a:hover,.navbar li a.active{
+      color: rgb(54, 224, 20);
+       text-decoration: none;
+       padding: 34px 23px;
+      
+  }
+
+    .btn{
+        margin: 0px 9px;
+        padding: 4px 15px;
+        background-color: rgb(136, 136, 139);
+        font :rgb(66, 22, 22);
+        border: 2px grey;
+        border-radius: 11px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: 'Baloo Da 2', cursive;
+    }
+    .btn:hover{
+        color: rgb(130, 41, 0);
+    }
+    .container{
+        /*border: 2px solid white;*/
+        margin: 106px 10px;
+        padding: 50px;
+        width: 33%;
+        border-radius:28px ;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 11px;
+    border-radius: 8px;
+        font-size:16px;
+        font-family: 'Baloo Da 2', cursive;
+        
+    }
+    .container h1{
+        text-align: center;
+
+    }
+    .container button{
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+   
