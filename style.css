@@ -106,4 +106,9 @@ body{
         width: 74%;
         margin: 20px auto;
     }
+    #result{
+        color: rgb(46, 223, 60);
+        font-size: large;
+        text-align: center;
+    }
    
